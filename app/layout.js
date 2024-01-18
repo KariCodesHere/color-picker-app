@@ -4,12 +4,12 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-    title: "Aymvn - Color Picker",
+    title: "Pick Color From Image",
     description:
-        "A simple color picker, Upload an image and pick a color from it",
+        "A simple color picker - Upload an image and pick a color from it.",
     tags: ["Color Picker", "Image Picker", "Color", "Image", "Picker"],
-    author: "Aymvn",
-    url: "https://aymvn.tech",
+    author: "KariCodes",
+    url: "https://karicodes.dev",
 };
 
 export default function RootLayout({ children }) {
